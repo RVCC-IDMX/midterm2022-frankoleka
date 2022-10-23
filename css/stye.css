@@ -1,7 +1,9 @@
-body {
+code
+
+head, body {
+    text-align: center;
     font-family: Atma;
-    font-size: 25pt;
-    font-weight: 700;
+    font-size: 30pt;
     background-color: midnightblue;
     color: coral;
 }
@@ -9,58 +11,75 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: Creepster;
     font-size: 50pt;
+    color: coral;
 }
 
 h1 {
-    font-size: 50pt;
+    font-size: 70pt;
+}
+
+header img {
+    size-adjust: 30px;
 }
 
 header {
     text-align: center;
 }
 
+/* Character Section */
+
 #character, footer {
     text-align: center;
     border: 15px solid blanchedalmond;
-    background-color: coral;
+    background-color: midnightblue;
     padding: 30px;
-    color: midnightblue;
+    color: coral;
 }
 
 #character img {
     width: 300px;
 }
 
-
+/* Portfolio Section */
 
 #portfolio {
     text-align: center;
 }
 
+#portfolio ul li:nth-child(even) {
+    color: ghostwhite;
+}
 
-#testimonies {
+#portfolio ul li:nth-child(odd) {
+    color: plum;
+}
+
+/* Testimonial Section */
+
+#testimonials {
     text-align: center;
 }
 
-#testimonies ul li:nth-child(even) {
-    color:antiquewhite;
+#testimonials ul li:nth-child(odd) {
+    color: plum;
 }
 
-#hobbies ul li:nth-child(even) {
-    color: coral;
+#testimonials ul li:nth-child(even) {
+    color: ghostwhite;
 }
 
+/* Gallery */
 
 #gallery {
     text-align: center;
     border: 15px solid blanchedalmond;
-    background-color: coral;
+    background-color: midnightblue;
     padding: 30px;
-    color: midnightblue;
+    color: coral;
     margin-bottom: 2rem;
 }
 
 #gallery figure {
     text-align: center;
-    font-size: 25pt;
+    font-size: 30pt;
 }
