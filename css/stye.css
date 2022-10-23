@@ -1,0 +1,66 @@
+body {
+    font-family: Atma;
+    font-size: 25pt;
+    font-weight: 700;
+    background-color: midnightblue;
+    color: coral;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Creepster;
+    font-size: 50pt;
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+header {
+    text-align: center;
+}
+
+#character, footer {
+    text-align: center;
+    border: 15px solid blanchedalmond;
+    background-color: coral;
+    padding: 30px;
+    color: midnightblue;
+}
+
+#character img {
+    width: 300px;
+}
+
+
+
+#portfolio {
+    text-align: center;
+}
+
+
+#testimonies {
+    text-align: center;
+}
+
+#testimonies ul li:nth-child(even) {
+    color:antiquewhite;
+}
+
+#hobbies ul li:nth-child(even) {
+    color: coral;
+}
+
+
+#gallery {
+    text-align: center;
+    border: 15px solid blanchedalmond;
+    background-color: coral;
+    padding: 30px;
+    color: midnightblue;
+    margin-bottom: 2rem;
+}
+
+#gallery figure {
+    text-align: center;
+    font-size: 25pt;
+}
